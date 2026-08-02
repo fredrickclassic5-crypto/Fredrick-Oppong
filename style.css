@@ -7,14 +7,14 @@ font-family:Poppins,sans-serif;
 }
 
 body{
-background:#0b0b0b;
+background:#dca42c;
 color:white;
 }
 
 header{
 position:fixed;
 top:0;
-width:100%;
+width: 80%;
 padding:20px 10%;
 background:#111;
 z-index:999;

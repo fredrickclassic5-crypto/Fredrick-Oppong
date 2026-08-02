@@ -14,9 +14,9 @@ color:white;
 header{
 position:fixed;
 top:0;
-width: 80%;
+width: 100%;
 padding:20px 10%;
-background:#111;
+background:#d8a21a;
 z-index:999;
 }
 
@@ -61,7 +61,7 @@ align-items:center;
 justify-content:center;
 text-align:center;
 padding:20px;
-background:linear-gradient(135deg,#0b0b0b,#111,#161616);
+background:linear-gradient(135deg,#d8d032,#111,#161616);
 }
 
 .hero h1{

@@ -169,15 +169,39 @@ AI-generated content, and responsive websites.
 
 <h2>Contact Me</h2>
 
-<form>
+<form id="contact-form">
+    <input
+        type="text"
+        name="from_name"
+        placeholder="Your Name"
+        required
+    >
 
-<input type="text" placeholder="Your Name">
+    <input
+        type="email"
+        name="from_email"
+        placeholder="Your Email"
+        required
+    >
 
-<input type="email" placeholder="Email">
+    <textarea
+        name="message"
+        placeholder="Type your message"
+        required
+    ></textarea>
 
-<textarea placeholder="Message"></textarea>
+    <button type="submit">Send Message</button>
+</form>
 
 <button>Send Messahttps://picsum.photos/500/350?3ge</button>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init({
+    publicKey: "gppNw-qktswhYTr4U",
+});
+</script>
 
  <p>
             <i class="fas fa-phone"></i>

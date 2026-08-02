@@ -22,7 +22,7 @@ form.addEventListener("submit", function(e){
     e.preventDefault();
 
     emailjs.sendForm(
-        "service_ntd2c0b",
+        "ntd2c0b",
         "11btROuuOHVTVw_uolthV",
         this
     ).then(() => {
